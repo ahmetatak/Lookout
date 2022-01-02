@@ -1,0 +1,415 @@
+# Webalizer V2.23-08 Incremental Data - 09/18/2019 23:11:15
+2019 9 18 23 11 15
+295 270 41 47 27 9 31199450 118 32 0
+4 2 68 1 18
+1 0 0 1 1 1
+2 2 33642 2 1 1
+2 2 71 2 1 1
+2 2 67198 2 2 2
+5 4 100896 5 4 4
+38 37 4930732 4 12 3
+3 2 33642 3 2 2
+2 2 27128 2 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+70 52 5440217 3 29 2
+89 88 10566983 4 39 3
+35 33 4919791 4 12 5
+0 0 0 0 0 0
+3 3 27199 3 2 2
+35 35 4921811 1 8 1
+4 4 67340 4 2 2
+4 4 62800 4 2 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+2 2 33642 1
+1 0 0 1
+3 3 67269 2
+3 3 33698 2
+32 32 4886220 9
+68 50 5406519 28
+0 0 0 0
+39 38 4989080 11
+2 2 33698 1
+36 35 4876358 12
+0 0 0 0
+2 2 33698 1
+0 0 0 0
+34 34 4836445 9
+6 5 87859 4
+5 4 100896 4
+0 0 0 0
+54 54 5724140 28
+0 0 0 0
+3 2 27128 2
+0 0 0 0
+1 0 0 1
+4 4 62800 2
+0
+0
+0
+270
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+17
+0
+0
+0
+0
+0
+5
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/template/default/icons/css/all.min.css
+0 14 3687659072363954176 614580 0 0
+/admin/dashboard
+0 7 30803244233226081 277954 0 0
+/template/default/css/animation.css
+0 8 3615601262725002355 746151 0 0
+/account/signup/
+0 3 7939394717990284911 86853 1 0
+/template/default/css/bootstrap/bootstrap.min.css
+0 8 7957713625452457521 845616 0 0
+/admin/vehicle/track/2/
+0 1 3979265820339536128 37494 0 0
+/admin/company/update/5/
+0 1 65 36071 0 0
+/documantation
+0 2 7146776564002158452 0 1 0
+/template/default/css/site/home.css
+0 8 36619392 19649 0 0
+/template/default/js/site/account/login.js
+0 7 0 13266 0 0
+/template/default/js/animation.js
+0 7 0 93840 0 0
+/template/default/js/jquery.js
+0 8 0 521562 0 0
+/template/default/css/site/account/login.css
+0 7 0 5574 0 0
+/admin/employee/all
+0 2 0 76746 0 0
+/admin/account/all/4
+0 1 0 36632 0 0
+/template/default/img/bg.jpg
+1 7 0 1613646 0 0
+/template/default/font/abeatbyKaiRegular.otf
+0 12 0 141552 0 0
+/admin/company/add/
+0 2 0 71820 0 0
+/captcha/
+0 2 0 142 0 0
+/template/default/img/favicon.ico
+0 6 0 6900 0 0
+/favicon.ico
+0 1 0 71 0 0
+/template/default/img/mobile_intro.gif
+1 13 0 21559656 0 0
+/admin/device/all
+0 7 0 264943 0 0
+/admin/account/all/1
+0 1 0 44743 0 0
+/upload/img/profiles//.jpg
+1 1 0 46876 0 0
+/template/default/css/site/admin/admin.css
+0 7 0 51730 0 0
+/admin/account/all/3
+0 1 0 44757 0 0
+/wp-login.php
+0 1 0 71 1 0
+/template/default/css/style.css
+0 14 0 38448 0 0
+/account/signin/
+0 2 0 54090 1 0
+/content/img/64x64.png
+1 1 0 3690 0 0
+/template/default/js/admin/navbar.js
+0 6 0 2340 0 0
+/account/signin
+0 18 0 316693 1 0
+/
+0 34 0 1144704 25 3
+/admin/device/update/7/
+0 1 0 35137 0 0
+/template/default/js/bootstrap.min.js
+0 8 0 306234 0 0
+/admin/account/add
+0 1 0 35640 0 0
+/admin/vehicle/all
+0 5 0 381070 0 0
+/admin/vehicle/track/1/
+0 3 0 111039 0 0
+/template/default/icons/webfonts/fa-solid-900.woff2
+0 12 0 886224 0 0
+/admin/company/all
+0 4 0 142512 0 0
+/admin/account/all/2
+0 2 0 89470 0 0
+/robots.txt
+0 13 0 923 0 0
+/admin/account/all
+0 1 0 44743 0 0
+/template/default/css/icons.css
+0 7 0 252 0 0
+/template/default/icons/webfonts/fa-regular-400.woff2
+0 2 0 29688 0 0
+/admin/dashboard/
+0 8 0 317658 1 0
+# End Of Table - urls
+# -sites- (monthly)
+ip-54-36-150-108.a.ahrefs.com
+0 1 1 33627 1 1568762387
+/
+jobqueue-listener.jobqueue.netcraft.com-uaaea7ca0cce511e99bb1b256838d6ab1u-digitalocean
+0 1 0 0 1 1567356773
+-
+ip-54-36-148-233.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-149-97.a.ahrefs.com
+0 1 1 33571 1 1568710635
+/
+ip-54-36-149-42.a.ahrefs.com
+0 1 1 33627 1 1567740966
+/
+planetlab5.net.in.tum.de
+0 4 0 0 4 1568412875
+/
+157.245.2.197
+0 1 1 33627 1 1567613831
+/
+ip-54-36-148-201.a.ahrefs.com
+0 1 1 71 0 0
+-
+95.15.79.109.dynamic.ttnet.com.tr
+0 1 1 39707 1 1568353161
+/admin/dashboard/
+ns3061207.ip-193-70-34.eu
+0 1 1 33571 1 1568368801
+/
+ip-54-36-150-154.a.ahrefs.com
+0 1 1 33627 1 1568215505
+/
+78.184.64.218.dynamic.ttnet.com.tr
+0 31 31 4846513 1 1568351916
+/admin/vehicle/track/1/
+178.240.48.239
+0 35 34 4863407 1 1567782018
+/account/signin
+ip-54-36-148-13.a.ahrefs.com
+0 1 1 33571 1 1567388740
+/
+ip-54-36-148-227.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-148-18.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-150-104.a.ahrefs.com
+0 1 1 27057 1 1568580067
+/account/signin/
+94.123.200.92
+0 35 34 4842787 1 1568283573
+/documantation
+ip-54-36-150-151.a.ahrefs.com
+0 1 1 0 1 1567485054
+/documantation
+ip-54-36-148-102.a.ahrefs.com
+0 1 1 71 0 0
+-
+167.71.87.81
+0 1 1 33571 1 1567614504
+/
+94.123.206.181
+0 52 52 5690498 1 1568314121
+/admin/company/all
+ip-54-36-150-98.a.ahrefs.com
+0 1 1 33627 1 1568280434
+/
+ip-54-36-149-30.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-148-248.a.ahrefs.com
+0 1 1 71 0 0
+-
+jobqueue-listener.jobqueue.netcraft.com-ud7f4a25ccfab11e985da4444838d6ab1u-digitalocean
+0 1 1 33627 1 1567657205
+/
+ip-54-36-148-195.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-149-38.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-149-41.a.ahrefs.com
+0 1 1 71 0 0
+-
+jobqueue-listener.jobqueue.netcraft.com-ud6f3ab32cfab11e985da4444838d6ab1u-digitalocean
+0 1 1 33571 1 1567653481
+/
+94.123.198.141
+0 68 50 5406519 1 1568183528
+/admin/dashboard
+ip-54-36-148-99.a.ahrefs.com
+0 1 1 71 0 0
+-
+94.123.196.218
+0 35 35 4921811 1 1568620937
+/admin/device/all
+ip-54-36-149-10.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-150-44.a.ahrefs.com
+0 1 1 33627 1 1568809295
+/
+ip-54-36-150-83.a.ahrefs.com
+0 1 1 33571 1 1567881053
+/
+139.59.22.194
+0 1 1 71 1 1568557296
+/wp-login.php
+ip-54-36-148-123.a.ahrefs.com
+0 2 2 33698 1 1567701093
+/
+ip-54-36-149-77.a.ahrefs.com
+0 1 1 29031 1 1568848275
+/account/signup/
+157.245.11.116
+0 1 1 33627 1 1567759662
+/
+ip-54-36-150-48.a.ahrefs.com
+0 1 1 27057 1 1567955514
+/account/signin
+# End Of Table - sites (monthly)
+# -sites- (daily)
+ip-54-36-148-233.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-148-99.a.ahrefs.com
+0 1 1 71 0 0
+-
+ip-54-36-150-44.a.ahrefs.com
+0 1 1 33627 1 1568809295
+/
+ip-54-36-149-77.a.ahrefs.com
+0 1 1 29031 1 1568848275
+/account/signup/
+# End Of Table - sites (daily)
+# -referrers- 
+https://lookout.aljazarisoft.com/admin/account/all/1
+0 1
+https://lookout.aljazarisoft.com/account/signup/
+0 9
+https://lookout.aljazarisoft.com/admin/device/update/7/
+0 1
+https://lookout.aljazarisoft.com/admin/account/add
+0 1
+https://lookout.aljazarisoft.com/admin/employee/all
+0 2
+- (Direct Request)
+0 51
+https://lookout.aljazarisoft.com/admin/account/all/4
+0 1
+https://lookout.aljazarisoft.com/template/default/icons/css/all.min.css
+0 5
+https://lookout.aljazarisoft.com/template/default/css/site/admin/admin.css
+0 5
+https://lookout.aljazarisoft.com/admin/vehicle/all
+0 5
+http://lookout.aljazarisoft.com/template/default/icons/css/all.min.css
+0 5
+http://lookout.aljazarisoft.com/template/default/css/style.css
+0 9
+http://lookout.aljazarisoft.com/
+0 67
+https://lookout.aljazarisoft.com/admin/device/all
+0 7
+https://lookout.aljazarisoft.com/admin/company/all
+0 7
+https://lookout.aljazarisoft.com/admin/account/all/2
+0 2
+https://lookout.aljazarisoft.com/
+0 28
+https://lookout.aljazarisoft.com/admin/account/all/3
+0 2
+https://lookout.aljazarisoft.com/admin/account/all
+0 2
+https://lookout.aljazarisoft.com/admin/company/update/5/
+0 1
+https://lookout.aljazarisoft.com/admin/dashboard/
+0 7
+https://lookout.aljazarisoft.com/template/default/css/style.css
+0 11
+https://lookout.aljazarisoft.com/admin/dashboard
+0 20
+https://www.netcraft.com/survey/
+0 1
+https://lookout.aljazarisoft.com/account/signin
+0 39
+https://lookout.aljazarisoft.com/admin/company/add/
+0 1
+https://lookout.aljazarisoft.com/admin/vehicle/track/1/
+0 5
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E14
+0 35
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 5
+Mozilla/4.0 (compatible; Netcraft Web Server Survey)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:69.0) Gecko/20100101 Firefox/69.0
+0 190
+Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+0 26
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36
+0 32
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,118 @@
+ 
+@import "../icons/css/all.min.css";
+@font-face {
+    font-family: rounded-font;
+    src: url("../font/abeatbyKaiRegular.otf") format("opentype");
+}
+* {
+ font-size: 100%;
+ font-family: rounded-font;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body {
+   
+  background: -moz-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #58C2FF), color-stop(100%, #2C8FFF)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* ie10+ */
+    background: linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C8FFF', endColorstr='#58C2FF',GradientType=1 ); /* ie6-9 */ 
+ }
+ 
+/*logo */
+ 
+@media (max-width: 575.98px) {
+    .logo{
+        float: right;
+        height: 40px;
+        
+    }
+    
+}
+
+ 
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .logo{
+        float: right;
+        height: 40px;
+        
+    }
+}
+
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ .logo{
+        float: right;
+        height: 40px;
+        
+    }}
+
+ 
+@media (min-width: 992px) and (max-width: 1199.98px) {  .logo{
+        float: right;
+        height: 40px;
+        
+    }  }
+
+ 
+@media (min-width: 1200px) {   .logo{
+        float: right;
+        height: 40px;
+        
+    } }
+/**/
+
+/* change the background color */
+.navbar-toggler-icon{
+    color:white!important;
+   
+}
+.navbar-custom {
+   
+  background: -moz-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #58C2FF), color-stop(100%, #2C8FFF)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* ie10+ */
+    background: linear-gradient(45deg, #58C2FF 0%, #2C8FFF 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2C8FFF', endColorstr='#58C2FF',GradientType=1 ); /* ie6-9 */ 
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.wall{
+      background: url('../../img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+ max-height: 200px;
+min-height:  200px;
+}
+.carousel-item,.carousel-inner{
+ 
+max-height: 200px;
+}
