@@ -11,7 +11,7 @@ All you need, just clone project and type:
 ```docker-compose up -d```. in your terminal 
 
 to check all containers
-
+```docker ps -a``` 
 
 ```CONTAINER ID   IMAGE                     COMMAND                  CREATED      STATUS                    PORTS                           NAMES
 7a6303xxxxxx   phpmyadmin/phpmyadmin:5   "/docker-entrypoint.…"   6 days ago   Up 16 minutes             0.0.0.0:3389->80/tcp            jazariframework-db-admin
