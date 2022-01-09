@@ -21,7 +21,7 @@ to check all containers
 
 #### Containers:
  ```jazariframework-db-admin``` : it is phpmyadmin container to manage Mysql Database port : 3389 <br>
- ```jazariframework-server```   : this container is mains erver and application works in this container. port: 8080 <br>
+ ```jazariframework-server```   : this container is main server and application works in this container located on port: 8080 <br>
  ```jazariframework-db```      : Mysql works in this container  port: 3306 <br>
    
    
