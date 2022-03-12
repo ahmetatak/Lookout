@@ -1,4 +1,11 @@
 # Lookout
+ 
+ 
+ ```diff
+ 
+- Warning! this project was stopped to development in 2017! Some data deleted in database sql.
+ 
+```
 Lookout Vehicle Tracking System &amp; Automation Project is based on PHP MVC
 
 <img width="900px" src="https://user-images.githubusercontent.com/3717312/148223355-9def8c96-f99a-4461-8c09-e1a0ee78a859.png">
