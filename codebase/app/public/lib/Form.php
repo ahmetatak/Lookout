@@ -111,7 +111,7 @@ class Form extends Controller
         }
         return $this;
     }
-    public function length($min = 0, $max)
+    public function length($min = 0, $max=1)
     {
         $this->values[$this->currentValue] = str_replace("\r\n", '', $this->values[$this->currentValue]);
         if (strlen(utf8_decode($this->values[$this->currentValue])) < $min or strlen(utf8_decode($this->values[$this->currentValue])) > $max) {

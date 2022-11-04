@@ -5423,3 +5423,61 @@ Stack trace:
 #9 /var/www/html/public/index.php(41): start('')
 #10 {main}
   thrown in /var/www/html/public/lib/Database.php on line 105
+[04-Nov-2022 11:21:27 UTC] PHP Deprecated:  Required parameter $max follows optional parameter $min in /var/www/html/public/lib/Form.php on line 114
+[04-Nov-2022 11:21:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/public/lib/Form.php:114) in /var/www/html/public/lib/Session.php on line 61
+[04-Nov-2022 11:22:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'firebase_id' doesn't have a default value in /var/www/html/public/lib/Database.php:130
+Stack trace:
+#0 /var/www/html/public/lib/Database.php(130): PDOStatement->execute()
+#1 /var/www/html/public/admin/model/account.php(194): Database->insert('os_account', Array)
+#2 /var/www/html/public/admin/controller/account/add.php(139): ModelAdminAccount->insert(Array)
+#3 /var/www/html/public/lib/Router.php(126): ControllerAdminAccountAdd->index()
+#4 /var/www/html/public/lib/Router.php(85): Router->initMethod()
+#5 /var/www/html/public/lib/Router.php(60): Router->initPath()
+#6 /var/www/html/public/lib/Router.php(35): Router->initController()
+#7 /var/www/html/public/lib/Router.php(29): Router->start('account/add/')
+#8 /var/www/html/public/system/startup.php(76): Router->__construct('account/add/')
+#9 /var/www/html/public/admin/index.php(18): start('admin')
+#10 {main}
+  thrown in /var/www/html/public/lib/Database.php on line 130
+[04-Nov-2022 11:23:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'femail' doesn't have a default value in /var/www/html/public/lib/Database.php:130
+Stack trace:
+#0 /var/www/html/public/lib/Database.php(130): PDOStatement->execute()
+#1 /var/www/html/public/admin/model/account.php(194): Database->insert('os_account', Array)
+#2 /var/www/html/public/admin/controller/account/add.php(139): ModelAdminAccount->insert(Array)
+#3 /var/www/html/public/lib/Router.php(126): ControllerAdminAccountAdd->index()
+#4 /var/www/html/public/lib/Router.php(85): Router->initMethod()
+#5 /var/www/html/public/lib/Router.php(60): Router->initPath()
+#6 /var/www/html/public/lib/Router.php(35): Router->initController()
+#7 /var/www/html/public/lib/Router.php(29): Router->start('account/add/')
+#8 /var/www/html/public/system/startup.php(76): Router->__construct('account/add/')
+#9 /var/www/html/public/admin/index.php(18): start('admin')
+#10 {main}
+  thrown in /var/www/html/public/lib/Database.php on line 130
+[04-Nov-2022 11:24:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'phone' doesn't have a default value in /var/www/html/public/lib/Database.php:130
+Stack trace:
+#0 /var/www/html/public/lib/Database.php(130): PDOStatement->execute()
+#1 /var/www/html/public/admin/model/account.php(194): Database->insert('os_account', Array)
+#2 /var/www/html/public/admin/controller/account/add.php(139): ModelAdminAccount->insert(Array)
+#3 /var/www/html/public/lib/Router.php(126): ControllerAdminAccountAdd->index()
+#4 /var/www/html/public/lib/Router.php(85): Router->initMethod()
+#5 /var/www/html/public/lib/Router.php(60): Router->initPath()
+#6 /var/www/html/public/lib/Router.php(35): Router->initController()
+#7 /var/www/html/public/lib/Router.php(29): Router->start('account/add/')
+#8 /var/www/html/public/system/startup.php(76): Router->__construct('account/add/')
+#9 /var/www/html/public/admin/index.php(18): start('admin')
+#10 {main}
+  thrown in /var/www/html/public/lib/Database.php on line 130
+[04-Nov-2022 11:24:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'birthday' doesn't have a default value in /var/www/html/public/lib/Database.php:130
+Stack trace:
+#0 /var/www/html/public/lib/Database.php(130): PDOStatement->execute()
+#1 /var/www/html/public/admin/model/account.php(194): Database->insert('os_account', Array)
+#2 /var/www/html/public/admin/controller/account/add.php(139): ModelAdminAccount->insert(Array)
+#3 /var/www/html/public/lib/Router.php(126): ControllerAdminAccountAdd->index()
+#4 /var/www/html/public/lib/Router.php(85): Router->initMethod()
+#5 /var/www/html/public/lib/Router.php(60): Router->initPath()
+#6 /var/www/html/public/lib/Router.php(35): Router->initController()
+#7 /var/www/html/public/lib/Router.php(29): Router->start('account/add/')
+#8 /var/www/html/public/system/startup.php(76): Router->__construct('account/add/')
+#9 /var/www/html/public/admin/index.php(18): start('admin')
+#10 {main}
+  thrown in /var/www/html/public/lib/Database.php on line 130

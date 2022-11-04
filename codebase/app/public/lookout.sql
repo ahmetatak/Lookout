@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: db_server
--- Üretim Zamanı: 04 Kas 2022, 11:16:15
+-- Üretim Zamanı: 04 Kas 2022, 11:25:35
 -- Sunucu sürümü: 10.5.9-MariaDB-1:10.5.9+maria~focal
 -- PHP Sürümü: 8.0.19
 
@@ -30,15 +30,15 @@ SET time_zone = "+00:00";
 CREATE TABLE `os_account` (
   `account_id` int(11) NOT NULL,
   `file_id` int(11) DEFAULT NULL,
-  `firebase_id` text NOT NULL,
+  `firebase_id` text DEFAULT NULL,
   `active` int(1) NOT NULL,
   `username` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `femail` varchar(100) NOT NULL,
+  `femail` varchar(100) DEFAULT NULL,
   `pw` varchar(255) NOT NULL,
   `fullname` varchar(100) NOT NULL,
-  `phone` varchar(20) NOT NULL,
-  `birthday` varchar(25) NOT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `birthday` varchar(25) DEFAULT NULL,
   `rank` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -47,7 +47,9 @@ CREATE TABLE `os_account` (
 --
 
 INSERT INTO `os_account` (`account_id`, `file_id`, `firebase_id`, `active`, `username`, `email`, `femail`, `pw`, `fullname`, `phone`, `birthday`, `rank`) VALUES
-(1, 1, '0', 1, 'admin', 'admin@admin.com', 'admn@admin.com', 'd0f0aa62301085065936f671a5ee67db', 'Ahmet ATAK', '00905000000000', '', 'admin');
+(1, 1, '0', 1, 'admin', 'admin@admin.com', 'admn@admin.com', 'd0f0aa62301085065936f671a5ee67db', 'Ahmet ATAK', '00905000000000', '', 'admin'),
+(2, NULL, NULL, 1, 'ahmet', 'ahmet@ahmet.com', NULL, '4eb7c5b66e0aad3a1750739933bed2b0', 'ahmet', NULL, NULL, 'user'),
+(3, NULL, NULL, 1, 'aakakk', 'dkdkfkf@ddd.ddd', 'dkdkfkf@ddd.ddd', '5d793fc5b00a2348c3fb9ab59e5ca98a', 'aaa', NULL, NULL, 'user');
 
 -- --------------------------------------------------------
 
@@ -163,7 +165,10 @@ CREATE TABLE `os_log` (
 --
 
 INSERT INTO `os_log` (`log_table`, `account_id`, `log_data_id`, `log_action`, `log_datetime`, `log_ip`, `log_detail`) VALUES
-('account', 1, 1, 'signin', '1667560286', '192.168.224.1', '');
+('account', 1, 1, 'signin', '1667560286', '192.168.224.1', ''),
+('account', 1, 1, 'signin', '1667560928', '192.168.240.1', ''),
+('account', 1, 2, 'insert', '1667561082', '192.168.240.1', ''),
+('account', 1, 3, 'insert', '1667561126', '192.168.240.1', '');
 
 -- --------------------------------------------------------
 
@@ -293,7 +298,7 @@ ALTER TABLE `os_vehicle`
 -- Tablo için AUTO_INCREMENT değeri `os_account`
 --
 ALTER TABLE `os_account`
-  MODIFY `account_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `account_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `os_company`
