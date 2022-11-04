@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: db_server
--- Üretim Zamanı: 02 Oca 2022, 13:58:14
+-- Üretim Zamanı: 04 Kas 2022, 11:16:15
 -- Sunucu sürümü: 10.5.9-MariaDB-1:10.5.9+maria~focal
--- PHP Sürümü: 7.4.20
+-- PHP Sürümü: 8.0.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `os_account` (
   `account_id` int(11) NOT NULL,
-  `file_id` int(11) NOT NULL,
+  `file_id` int(11) DEFAULT NULL,
   `firebase_id` text NOT NULL,
   `active` int(1) NOT NULL,
   `username` varchar(50) NOT NULL,
@@ -106,6 +106,13 @@ CREATE TABLE `os_employee` (
   `employee_statu` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Tablo döküm verisi `os_employee`
+--
+
+INSERT INTO `os_employee` (`employee_id`, `company_id`, `account_id`, `employee_position`, `employee_statu`) VALUES
+(1, 5, 1, 'driver', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -156,9 +163,7 @@ CREATE TABLE `os_log` (
 --
 
 INSERT INTO `os_log` (`log_table`, `account_id`, `log_data_id`, `log_action`, `log_datetime`, `log_ip`, `log_detail`) VALUES
-('account', 1, 1, 'signin', '1641131537', '172.18.0.1', ''),
-('account', 1, 1, 'signin', '1641131751', '172.18.0.1', ''),
-('account', 1, 1, 'signin', '1641131805', '172.18.0.1', '');
+('account', 1, 1, 'signin', '1667560286', '192.168.224.1', '');
 
 -- --------------------------------------------------------
 
@@ -306,7 +311,7 @@ ALTER TABLE `os_device`
 -- Tablo için AUTO_INCREMENT değeri `os_employee`
 --
 ALTER TABLE `os_employee`
-  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `employee_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `os_file`
